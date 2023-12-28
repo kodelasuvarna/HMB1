@@ -201,11 +201,11 @@ body a{
     background-color: transparent;
 }
 .navbar-nav > li > a {
-    padding: 10px 15px;
+    padding: 12px 12px;
     text-align: center;
     color: #fff;
-    font-weight: 100;
-    font-size:14px;
+    font-weight:300;
+    font-size:15px;
 }
 .dropdown-menu.columns-2 {
     min-width: 400px;
@@ -295,12 +295,14 @@ ul.nav_1 li.last{
     color:#fff !important;
 }
 .banner{
-	/* background:url(../images/images/slider5.jpg)no-repeat center top;
+	background:url(../images/images/slider2.jpg)no-repeat center top;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
-	min-height:650px; */
+	min-height:200px;
+    padding-top: -20px;
+    
 }
 .banner_info{
    margin: 10em 0 0 0;
@@ -309,6 +311,7 @@ ul.nav_1 li.last{
    color:#fff;
    font-family: sans-serif;
    font-size:4em;
+   font-weight: 600;
    margin-bottom:30px;
    text-shadow: 0 2px 4px white, 2px 2px 4px rgb(19, 18, 18), 7px 1px 10px white, 8px 2px 10px black, 4px 2px 4px black, 4px 2px 4px black;;
 }
@@ -328,10 +331,12 @@ ul.nav_1 li.last{
     transition-property: color;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    padding: 12px 40px;
+    padding: 12px 30px;
     border: 2px solid #fff;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    
 }
 .hvr-shutter-out-horizontal:before {
   content: "";
@@ -341,7 +346,8 @@ ul.nav_1 li.last{
   bottom: 0;
   left: 0;
   right: 0;
-  background:#555;
+  background:green;
+  border-radius: 11px;
   
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -364,7 +370,7 @@ ul.nav_1 li.last{
 }
 .profile_search{
 	text-align: center;
-    background-color:rgba(12, 9, 10, 0.29);
+    background-color:olive;
     padding: 2em;
     margin:11em 0 0 0;
 }
@@ -502,18 +508,28 @@ input#submit-btn {
     width: 30px;
     height: 8px;
     display: inline-block;
-    border-top: solid 2px #e1dddd;
+    border-top: solid 2px greenyellow;
 }
 .grid_1{
 	padding:5em 0;
+    background-color:rgba(11, 52, 75, 255) ;
 }
 .grid_1 h1, .grid_2 h2{
 	text-align: center;
     font-family: 'Oswald', sans-serif;
-    font-size: 2.5em;
-    color: #000;
+    font-size: 2 em;
+    color:white;
     margin-bottom: 0;
     font-weight: 500;
+    text-shadow: -3px 3px 0px #fb72b2,
+    -6px 6px 0px #ff8fc1,
+    -9px 9px 0px #fcc0de;
+    
+    
+}
+.grid_2{
+    padding:5em 0;
+    background-color:goldenrod ;
 }
 /* -- photo item  -- */
 .col_1 {
@@ -847,7 +863,7 @@ span.m_3{
     top: inherit;
 }
 .entry-1{
-    color: #a8a8a7;
+    color: green;
     font-size:11px;
     letter-spacing: 2px;
     margin: 0 0 1.25rem;
@@ -865,7 +881,7 @@ span.m_3{
 	color:#f0394d;
 }
 .suceess_story-content-info p{
-	color:#555;
+	color:rgba(11, 52, 75, 255);
 	font-size:0.85em;
 	line-height:1.8em;
 }
@@ -978,8 +994,9 @@ h4.post-title a:hover{
 }
 .religion_1-title {
     color: #000;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom:10px;
+    font-weight: 600;
 }
 .religion span {
     padding: 0px 5px;
@@ -988,13 +1005,13 @@ h4.post-title a:hover{
 }
 a.religion_1 {
     font-size: 0.85em;
-    color: #555;
+    color: rgba(11, 52, 75, 255);
 }
 .grid_2 {
     margin-bottom: 5em;
 }
 .bg{
-	background:url(../images/bg.jpg)no-repeat center top;
+	background:url(https://backgroundimages.withfloats.com/actual/642672c19ad9b700016b11e2.jpg)no-repeat center top;
 	background-size:cover;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -1017,7 +1034,8 @@ a.religion_1 {
 }
 .bg_left h4{
 	color:#000;
-	font-size:1.5em;
+	font-size:1.2em;
+    font-weight: 400;
 }
 .team-socials {
     padding: 0;
@@ -3007,7 +3025,8 @@ input#submit-btn {
     margin: 1em auto 1em;
 }
 .religion_1-title {
-    font-size: 1.2em;
+    font-size: 1.2em
+    font-weight:200px;
 }
 .grid_2 {
     margin-bottom: 1em;
