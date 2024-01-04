@@ -296,6 +296,7 @@ ul.nav_1 li.last{
 }
 .banner{
 	background:url(../images/images/slider2.jpg)no-repeat center top;
+    background-color: #2a6496;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -1041,7 +1042,7 @@ a.religion_1 {
 .bg_left h4{
 	color:#000;
 	font-size:1.2em;
-    font-weight: 400;
+    font-weight: 600;
 }
 .team-socials {
     padding: 0;
