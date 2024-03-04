@@ -385,7 +385,7 @@ button {
 }
 .contact_bt a:hover {
   color: #ffffff;
-  background-color: orange;
+  background-color: green;
 }
 
 .fa-angle-right:before {
@@ -434,8 +434,8 @@ button {
   width: 100%;
   height:100%;
   float: left;
-  padding-bottom: 90px;
-  /* background-image: url("../images/bg1.jpg");
+  padding-bottom: 50px;
+  /* background-image: 
   background-size: cover;
   background-position::center;
   background-repeat: no-repeat;
@@ -443,11 +443,12 @@ button {
   padding:0;
   margin:0; */
 }
-.services_section 1 {
+
+.services_section1 {
   width: 100%;
   float: left;
   padding-bottom: 90px;
-  background-image: url(../images/sofa\ .jpeg);
+  background-image: url("../images/bg-1.jpg");
 }
 .services_taital {
   width: 100%;
@@ -913,7 +914,7 @@ margin-top: 60px;
   padding-bottom: 90px;
   /* background-color: orange; */
   background-image:url(https://backgroundimages.withfloats.com/actual/642672c19ad9b700016b11e2.jpg);
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1555,4 +1556,87 @@ a.religion_1 {
   background-repeat: repeat-x;
   width: 100%;
   height: 23px;
+}
+.bg {
+  background-image: url("../images/s-5.jpg");
+    
+  background-size: cover;
+  
+  height:auto;
+  padding: 5em 0 0 0;
+  width:100%
+
+}
+.bg h3 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5em;
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: 500;
+  text-shadow: -3px 3px 0px #fb72b2;
+}
+
+.bg_left {
+  background: #fff;
+  padding: 2em;
+  text-align: center;
+}
+.bg_left h4 {
+  color: #000;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.team-socials {
+  padding: 0;
+  margin: 1em 0 0 0;
+  list-style: none;
+}
+.team-socials li {
+  display: inline;
+  padding: 0 9px;
+}
+.team-socials li:first-child {
+  padding-left: 0;
+}
+.team-socials li a {
+  color: #000;
+}
+.team-socials li a:hover {
+  color: #c32143;
+}
+.team-socials li span {
+  font-size: 18px;
+}
+.bg_left p {
+  color: #555;
+  font-size: 0.85em;
+  line-height: 1.8em;
+}
+.bg_left h5 {
+  color: #c32143;
+  font-size: 1em;
+}
+@media (max-width: 930px){
+  .bg h3 {
+    font-size: 2em;
+  }
+  .heart-divider {
+    margin: 1em auto 2em;
+  }
+  .bg_left {
+    padding: 1em;
+  }
+  .col-md-4.row_1-right {
+    margin: 3em 0 0 0;
+  }
+  .religion {
+    margin: 2em 0;
+  }
+  .grid_2 {
+    margin-bottom: 3em;
+  }
+  .bg_left h4 {
+    font-size: 1.3em;
+  }
 }
