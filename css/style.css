@@ -914,8 +914,7 @@ margin-top: 60px;
   width: 100%;
   height: 600px;
   float: left;
-  /* padding-top: 50px; */
-  padding-bottom: 90px;
+  padding: 5em 0 0 0;
   /* background-color: orange; */
   background-image:url(https://backgroundimages.withfloats.com/actual/642672c19ad9b700016b11e2.jpg);
   /* margin-bottom: 10px; */
@@ -929,13 +928,18 @@ margin-top: 60px;
   height: 80vh;
 }
 .client_text {
-  width: 100%;
-  float: left;
-  font-size: 32px;
+  /* width: 100%;
+  float: left; */
+  font-size: 24px;
   color: #c32143 ;
   text-transform: uppercase;
   text-align: center;
-  text-decoration: underline;
+ 
+}
+.bg-left{
+  background: #fff;
+    padding: 2em;
+    text-align: center;
 }
 .clients_section2 {
   width: 100%;
@@ -1551,6 +1555,20 @@ a.religion_1 {
 }
 .team-socials li {
   padding: 0 5px;
+}
+@media (min-width: 992px){
+.col-md-4 {
+    width: 33.33333333%;
+}
+}
+
+.suceess_story {
+  position: relative;
+}
+@media (min-width: 992px){
+.col-md-8 {
+  width: 66.66666667%;
+}
 }
 .col-md-4.row_1-right {
   margin: 3em 0 0 0;
