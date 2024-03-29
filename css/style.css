@@ -936,6 +936,27 @@ margin-top: 60px;
   text-align: center;
  
 }
+.clients_section h3{
+
+  text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-shadow: -3px 3px 0px #fb72b2;
+}
+@media (max-width: 480px){
+.clients_section {
+    min-height: 625px;
+}
+}
+@media (max-width: 736px){
+.clients_section {
+    min-height: 600px;
+    padding: 3em 0 0 0;
+}
+}
 .bg-left{
   background: #fff;
     padding: 2em;
